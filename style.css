@@ -1,0 +1,358 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color: #fff;
+    font-family:   Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.main_body{
+    padding-left: 50px;
+}
+.main{
+    background-image: url("images/Netflix-background.jpg");
+    height: 700px;
+    position: relative;
+}
+.main .box{
+    height: 700px;
+    width: 100%;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;margin-left: 10px;
+    cursor: pointer;
+}
+.lang-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.down-icon{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-contet {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 60px;
+}
+.header-contet h1{
+    font-size: 3.5rem;
+    line-height: 125%;
+    font-weight: 900;
+    max-width: 650px;
+}
+.header-contet h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.email{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 335px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 26.625rem;
+    float: left;
+    height: 50px;
+    margin-top: 20px;
+}
+.email input{
+    width: 100%;
+    height: 100%;
+    background:  rgba(22, 22, 22, 0.7);
+    border-width: 0.0625rem;
+    border-radius: 4px;
+    border-color:white;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.signup{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 235px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 26.625rem;
+    float: left;
+    height: 53px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.signup button{
+    width: 100%;
+    height: 100%;
+    background-color: #db0001;
+    color: #fff;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.content{
+    height: 80px;
+}
+.heading h2{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.contry-btn{
+    display: inline-flex;
+    align-items: center;
+    background: black;
+    color:#fff;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.movie-btn{
+    display: inline-flex;
+    align-items: center;
+    background: black;
+    color:#fff;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.trending{
+    width: 1400px;
+    height: 200px;
+    padding: 10px 20px;
+}
+.trending1{
+    height: 100%;
+    width: 200px;
+    float: left;
+    cursor: pointer;
+}
+.trending2{
+    margin-left: 40px;
+    height: 100%;
+    width: 200px;
+    float: left;
+    cursor: pointer;
+    background-size: cover;
+}
+.btn button{
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.img{
+    width: 166px;
+    height: 230px;
+}
+.reason-join{
+    width: 1400px;
+    height: 245px;
+    padding: 10px 20px;
+}
+.reasons{
+    width: 320px;
+    height: 100%;
+    background: linear-gradient( 149deg, #192247 0%, #210e17 96.86%);
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.para{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.title-join{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.lap{
+    width: 60px;
+    height: 35px;
+    margin-left: 156px;
+    margin-top: 69px;
+}
+.cont-logo{
+    margin-top: 39px;
+    margin-left: 124px;
+}
+.reasons img{
+    margin-top: 54px;
+    margin-left: 194px;
+    width: 60px;
+}
+.questions{
+    margin: 10px 10px;
+    width: 100%;
+    max-width: 750px;
+
+}
+.questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    transition: transform(0.5s);
+
+}
+input[type="radio"]{
+    display: none;
+}
+.questions .answer{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s, padding 0.4s;
+    width: 1299px;
+    margin-left: 20px;
+}
+.questions input[type="radio"]:checked + label +.answer{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.questions input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+label{
+    width: 1299px;
+    height: 33px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.answer p{
+    width: 1299px;
+    height: auto;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.ending_body{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.ending_body .email{
+    margin-left: 380px;
+    width: 600px;
+}
+.ending_body .email input{
+    width: 100%;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+
+}
+.col1{
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+}
+.col2{
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+
+}
+.col3{
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+}
+.col4{
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-bottom: 15px;
+}
+.footer a{
+    color: #777;
+    font-weight: 500;
+}
+.footer h4{
+    color: #777;
+    margin-left: 80px;
+    font-weight: 300px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer_item{
+    width: 200px;
+    margin-left: 80px;
+}
+.footer_item button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+hr{
+    background-color: #192247;
+}
